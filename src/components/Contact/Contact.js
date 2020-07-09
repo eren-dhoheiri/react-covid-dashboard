@@ -68,13 +68,13 @@ const Contact = () => {
 					<div className="col s12 m4">
 						<h5>Head Office</h5>
 						<p>
-							The Manhattan Square Mid Tower 12th Floor. Jl. TB
-							Simatupang Kav 1-S Jakarta, 12560
+							The Manhattan Square, Mid Tower 12th Floor, Jl. TB
+							Simatupang Kav. 1-S Jakarta Selatan 12560
 						</p>
 						<h5>Training Office</h5>
 						<p>
 							Jl. Kenanga Terusan No.32, Cilandak Timur, Pasar
-							Minggu. Jakarta Selatan, 12560
+							Minggu, Jakarta Selatan 12560
 						</p>
 					</div>
 					<div className="col s12 m3">

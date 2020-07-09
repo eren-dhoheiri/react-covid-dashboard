@@ -53,7 +53,7 @@ export default class Card extends Component {
 					name: "Wina Rahmawati",
 					img: WinaImg,
 					title: "Data Scientist",
-					instagram: "https://www.instagram.com/ichsanmedi/",
+					instagram: "https://www.instagram.com/wina_rahma/",
 					linkendin: "https://www.linkedin.com/in/wina-rahmawati/",
 					desk:
 						"Analyzing large data sets of quantitative and qualitative data. They responsible to developing statistical learning models for data analysis and must have experience using statistical tools.",
@@ -84,7 +84,7 @@ export default class Card extends Component {
 					id: 7,
 					name: "Sishi Liani",
 					img: SishiImg,
-					title: "Scrum Master",
+					title: "Support Team",
 					instagram: "https://www.instagram.com/sishisalnaz/",
 					linkendin: "https://www.linkedin.com/in/sishilianisalnaz/",
 					desk:
