@@ -1,64 +1,92 @@
-/* .animasi-teks {
-	font-size: 48px;
-	width: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 5s infinite steps(70, end);
-	animation: animasi-teks 5s infinite steps(70, end);
-}
-
-@keyframes animasi-teks {
-	from {
-		width: 0;
-	}
-}
-
-@-webkit-keyframes animas-teksi {
-	from {
-		width: 0;
-	}
-} */
-
 #hero {
-	color: #234582;
-	margin-top: 100px;
-	width: 100%;
-	/* border: 10px double #234582; */
+    color: #FF7417;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#hero h2 {
-	font-size: 30px;
-	font-weight: bold;
-	color: #234582;
-	letter-spacing: 1.2px;
-	/* text-shadow: 2px 2px 1px white; */
+#hero .hero-content {
+    margin-top: 30px;
+}
+
+#hero .hero-title {
+    margin-top: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#hero .h-one {
+    /* color: #f05323; */
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3em;
+
+}
+
+#hero .h-two {
+    /* color: #f05323; */
+    margin-top: -45px;
+    font-size: 140px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+#hero .h-three {
+    color: whitesmoke;
+    margin-top: -40px;
+    font-size: 42px;
+    /* margin-left: 10px; */
+    /* font-weight: bold; */
+    text-align: center;
+    line-height: 1.3em;
+
+}
+
+#hero span {
+    /* color: #f05323; */
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
 }
 
 #hero p {
-	text-align: justify;
-	font-weight: 300;
-	font-size: 1rem;
-	color: #234582;
-	padding: 7px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #21437F;
+    color: whitesmoke;
+    /* margin-left: 60px; */
+    text-align: right;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.7em;
+    opacity: 0.8;
+
 }
 
-.lottie-hero {
-	margin-top: -50px;
+#hero .hero-paragraph {
+    margin-top: 40px;
 }
 
-.hero-content {
-	margin-top: -90px;
-	color: #234582;
-	padding: 10px;
-	display: block !important;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	/* height: 600px; */
-	/* margin-bottom: 150px; */
+@media only screen and (min-device-width: 375px) and (max-width: 601px) {
+    #hero {
+        height: 1000px;
+    }
+
+    #hero .h-one {
+        font-size: 45px;
+    }
+
+    #hero .h-two {
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    #hero .h-three {
+        font-size: 35px;
+        margin-top: 25px;
+    }
 }
-/* 
-@media only screen and (max-width: 600px) {
-	#hero {
-		margin-bottom: 100px;
-	}
-} */

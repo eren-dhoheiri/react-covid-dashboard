@@ -20,30 +20,20 @@ export default class Background extends Component {
 				</div>
 				<div className="col s12 m5">
 					<p>
-						In the case of COVID-19, many researchers do research to
-						predict when the peak of COVID-19 with several model
-						choices such as SIR, SIRD, SEIR and SEIRD. The model
-						used in the COVID-19 disease spread model in Jakarta
-						is&nbsp;
+						The model that we used for this project is SEIRD model.
+						The model is compatible with the COVID-19 case. The
 						<a href={source} target="_blank">
-							the SEIRD model
-						</a>
-						. This model was chosen because it is in accordance with
-						the spread of COVID-19 disease itself. The SEIRD model
-						chosen is divided into six compartments: Susceptible,
-						individuals susceptible to disease, where these
-						compartments are divided into two compartments,
-						namely&nbsp;
+							SEIRD model
+						</a>{" "}
+						is divided into 6 compartments. The first compartment,
+						Susceptible, is the person who is healthy but
+						susceptible to the disease, this compartment will be
+						divided into two sub-compartments: &nbsp;
 						<span>
-							individuals who do not implement the PSBB policy
-							protocol (S_1){" "}
+							S_1 is fraction of the population that is carrying
+							out the PSBB protocol strictly
 						</span>{" "}
-						and{" "}
-						<span>
-							individuals who implement the PSBB policy protocol
-							(S_2){" "}
-						</span>
-						.
+						and <span>S_2 is the otherwise. </span>
 					</p>
 				</div>
 				<div className="col s12 m7 right">
@@ -54,41 +44,39 @@ export default class Background extends Component {
 				</div>
 				<div className="col s12 m12">
 					<p>
-						This is because DKI Jakarta has implemented the PSBB
-						policy and is still in the transition period of the
-						PSBB, so that vulnerable individuals are divided into
-						two compartments. Then the next compartment, the{" "}
+						The division is done because DKI Jakarta government is
+						doing the PSBB protocol and by now it is still in the
+						transition state to New Normal protocol. . The second
+						compartment
 						<span>
-							Exposed (E) compartment, is a latent individual in
-							which this individual has contracted the disease but
-							has not shown any signs of disease and cannot
-							transmit the disease or can be called the incubation
-							period for infection.
-						</span>{" "}
-						This is consistent with the spread of COVID-19 disease,
-						because the corona virus has an incubation period of
-						infection.
+							Exposed, is the person who is already infected but
+							the virus is still dormant, meaning that the person
+							can’t infect another person while in this state but
+							they can infect others after the virus incubation
+							period ends.
+						</span>
 					</p>
 					<p>
+						The third compartment,
 						<span>
-							Infected Compartment (I) is an individual who has a
-							disease and can transmit the disease.
+							Infected, is the phase after the Exposed period. In
+							this state, the person can infect another person.
 						</span>{" "}
+						The fourth compartment,
 						<span>
-							The Recovered (R) compartment is an individual who
-							has recovered from COVID-19
+							Recovered, is the person that had gone through the
+							infected phase and by now is healthy again.
 						</span>{" "}
-						and is assumed to have immunity so that he cannot return
-						to being a vulnerable individual.{" "}
+						The recovered individual is assumed to be immune to the
+						disease and won’t become a susceptible person again. The
+						last compartment,
 						<span>
-							Dead compartment (D) is an individual who died due
-							to COVID-19 disease, this is based on the fact that
-							this disease is a fatal disease that can cause
-							death.
+							Deceased, is the person who died because of the
+							COVID-19 disease
 						</span>{" "}
-						Each of the existing compartments has a constant
-						population and no natural birth or death has occurred in
-						that population.
+						The population of the DKI Jakarta is assumed to be
+						constant, meaning that there is no birth and natural
+						death that happened in the system.
 					</p>
 				</div>
 			</div>

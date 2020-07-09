@@ -10,70 +10,57 @@ export default class Modelsection extends Component {
 				<div className="col s12 m12 l12">
 					<h4>How Model Works</h4>
 					<p>
-						The SEIRD model has eight parameters needed. The first
-						parameter is the parameter N is the parameter of the
-						total population, of which the total population is
-						divided into two, namely{" "}
+						There are eight parameters that is needed for the model
+						to work. The first parameter, N, is the total population
+						of the DKI Jakarta province. Because the Susceptible
+						compartment is divided into two, so the total population
+						is also divided into two,
+						<span>N_1 and N_2</span>. The next parameter,
 						<span>
-							N_1 population that does not implement the PSBB
-							policy protocol
-						</span>
-						, and{" "}
-						<span>
-							N_2 is the population that implements the PSBB
-							policy protocol
-						</span>
-						.{" "}
-						<span>
-							β_1 is the rate of susceptible individuals who do
-							not perform PSBB into latent individuals after
-							interacting with infected individual.
+							β, is the probability of which an infected person
+							can infect a susceptible person after they come in
+							contact with each other.
 						</span>{" "}
+						Because of the same reason with the first parameter,
+						this parameter is also divided into two, β_1 and β_2.
 						<span>
-							β_2 is the rate of susceptible individuals who make
-							PSBB into latent individuals after interacting with
-							infected individual.
-						</span>{" "}
-						Then the next parameter is the <span>parameter δ</span>,
-						this parameter{" "}
-						<span>
-							is the rate of transfer from latent individuals to
-							infected individuals.
+							Parameter δ, is the rate of change from an exposed
+							individual into infected individual.
 						</span>
 						<span>
-							The death rate uses notated as γ, while the cure
-							rate is denoted as ρ.
+							Parameters γ and ρ, is the death and the recovery
+							rate of the disease respectively.
 						</span>
-						Then there is the α parameter as the probability that an
-						individual will die after being infected. The following
-						is a transfer diagram of the COVID-19 disease SEIRD
-						model with the addition of the PSBB policy protocol
+						The last parameter,
+						<span>
+							α, is the probability of an infected person to die,
+							or in other words, the fatality rate of the disease.
+						</span>
 					</p>
 					<div className="center-align">
 						<img src={Model} className="img-model" />
 						<p>
-							Based on the transfer diagram of the SEIRD model in
-							Figure 1., the mathematical model can be made as
-							follows:
+							The following is a transfer diagram of the COVID-19
+							disease SEIRD model with the addition of the PSBB
+							protocol:
 						</p>
 						<img src={Rumus} className="img-rumus" />
 					</div>
 					<p>
-						Equation (1) interprets that vulnerable individuals who
-						do not implement the PSBB protocol will decrease with
-						the number of contacts between vulnerable individuals
-						who do not carry out PSBB and individuals affected by
-						the disease. Likewise for equation (2) interpreting that
-						vulnerable individuals implementing PSBB policy
-						protocols will decrease along with the number of
-						contacts between vulnerable individuals implementing
-						PSBB policy protocols and individuals affected by the
-						disease. The equation (3) interprets latent individuals
-						will increase with the number of contacts between
-						vulnerable individuals and infected individuals, and
-						will decrease with the number of contacts between latent
-						individuals and individuals affected by the disease.
-						Then for equation (4) interpret that infected
+						Equation (1) shows that susceptible individual who do
+						not implement the PSBB protocol will decrease with the
+						number of contacts between vulnerable individual who do
+						not carry out PSBB and individuals affected by the
+						disease. Equation (2) shows that susceptible individuals
+						implementing PSBB policy protocols will decrease along
+						with the number of contacts between the susceptible
+						individuals implementing the PSBB protocol and the
+						infected individuals. The equation (3) shows latent
+						individuals will increase with the number of contacts
+						between vulnerable individuals and infected individuals,
+						and will decrease with the number of contacts between
+						exposed individuals and individuals affected by the
+						disease. Then for equation (4) interpret that infected
 						individuals will increase with the number of contacts
 						between latent individuals and individuals affected by
 						the disease, and will decrease with the number of

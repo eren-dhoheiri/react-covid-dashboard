@@ -133,7 +133,6 @@ export default class Navbar extends Component {
 							offset={-100}
 							duration={500}
 							isDynamic={true}
-							// className=""
 						>
 							Home
 						</Link>
@@ -147,7 +146,6 @@ export default class Navbar extends Component {
 							offset={0}
 							duration={500}
 							isDynamic={true}
-							// className="text-white"
 						>
 							Our Project
 						</Link>
@@ -161,7 +159,6 @@ export default class Navbar extends Component {
 							offset={-40}
 							duration={500}
 							isDynamic={true}
-							// className="text-white"
 						>
 							Dashboard
 						</Link>
@@ -189,7 +186,6 @@ export default class Navbar extends Component {
 							offset={50}
 							duration={500}
 							isDynamic={true}
-							// className="text-white"
 						>
 							Contact
 						</Link>

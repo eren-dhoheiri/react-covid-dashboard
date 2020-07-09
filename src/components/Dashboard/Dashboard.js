@@ -20,7 +20,7 @@ const Dashboard = () => {
 								There are two dashboards. The first dashboard
 								describes the model that has been created, while
 								the second dashboard explains the impact of
-								COVID-19 on our company, namely celerates.
+								COVID-19 on our company, Celerates.
 							</p>
 						</Fade>
 					</div>

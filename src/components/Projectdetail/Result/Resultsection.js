@@ -14,9 +14,8 @@ export default class Resultsection extends Component {
 					</div>
 					<div className="col s12 m12 l12">
 						<p>
-							It can be seen that there is a red line that
-							illustrates the number of individuals affected by
-							the disease over time.{" "}
+							Figure 2. Is a picture of the results of the model
+							prediction.
 							<span>
 								Based on the SEIRD model, it is estimated that
 								individuals affected by the disease will peak on
