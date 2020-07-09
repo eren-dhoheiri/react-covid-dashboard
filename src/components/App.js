@@ -10,7 +10,7 @@ import Footer from "./Footer/Footer";
 import TableauEmbed from "./Tableau/Tableau";
 import NavDetails from "./Navdetail/NavDetails";
 import Covid from "./Covid/covid";
-import Selfcheck from "./Selfcheck/selfcheck";
+import Selfcheck from "./SelfCheck/selfcheck";
 import Projectdetail from "./Projectdetail/Projectdetail";
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 

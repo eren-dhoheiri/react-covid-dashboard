@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Fade from "react-reveal/Fade";
 import Card from "../Card/Card";
-import "./OurTeam.css";
+import "./Ourteam.css";
 
 export default class OurTeam extends Component {
 	render() {
