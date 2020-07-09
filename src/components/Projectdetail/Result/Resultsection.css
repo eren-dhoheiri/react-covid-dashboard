@@ -1,0 +1,15 @@
+#result p {
+	text-align: justify;
+}
+
+#result span {
+	color: #f05323;
+	font-weight: bold;
+}
+#result img {
+	width: 65%;
+}
+
+#result .table-mape {
+	width: 70%;
+}

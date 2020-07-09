@@ -1,0 +1,64 @@
+/* .animasi-teks {
+	font-size: 48px;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 5s infinite steps(70, end);
+	animation: animasi-teks 5s infinite steps(70, end);
+}
+
+@keyframes animasi-teks {
+	from {
+		width: 0;
+	}
+}
+
+@-webkit-keyframes animas-teksi {
+	from {
+		width: 0;
+	}
+} */
+
+#hero {
+	color: #234582;
+	margin-top: 100px;
+	width: 100%;
+	/* border: 10px double #234582; */
+}
+
+#hero h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #234582;
+	letter-spacing: 1.2px;
+	/* text-shadow: 2px 2px 1px white; */
+}
+
+#hero p {
+	text-align: justify;
+	font-weight: 300;
+	font-size: 1rem;
+	color: #234582;
+	padding: 7px;
+}
+
+.lottie-hero {
+	margin-top: -50px;
+}
+
+.hero-content {
+	margin-top: -90px;
+	color: #234582;
+	padding: 10px;
+	display: block !important;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	/* height: 600px; */
+	/* margin-bottom: 150px; */
+}
+/* 
+@media only screen and (max-width: 600px) {
+	#hero {
+		margin-bottom: 100px;
+	}
+} */

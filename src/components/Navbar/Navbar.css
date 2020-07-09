@@ -1,0 +1,39 @@
+nav {
+	background-color: #29539b;
+	background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+}
+
+.no-shadows {
+	box-shadow: none !important;
+	border: 0px solid transparent;
+}
+
+nav .nav-wrapper {
+	max-width: 1150px;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+
+nav img {
+	margin-top: 5px;
+	height: 50px;
+	z-index: 100;
+}
+
+nav .nav-wrapper ul li {
+	margin-left: 10px;
+}
+
+.sidenav {
+	background-color: #29539b;
+	width: 50%;
+}
+.sidenav li > a {
+	margin-top: 20px;
+	color: white;
+	font-weight: bold;
+}

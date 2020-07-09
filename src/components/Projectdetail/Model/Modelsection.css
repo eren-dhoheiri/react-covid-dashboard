@@ -1,0 +1,16 @@
+#modelsection p {
+	text-align: justify;
+}
+
+#modelsection span {
+	color: #f05323;
+	font-weight: bold;
+}
+
+#modelsection .img-model {
+	width: 70%;
+}
+
+#modelsection .img-rumus {
+	width: 60%;
+}
