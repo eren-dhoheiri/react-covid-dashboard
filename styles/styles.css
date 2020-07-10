@@ -60,6 +60,7 @@ h4 {
     transition: 0.5s ease;
     letter-spacing: 1.5px;
     min-width: 100px;
+    min-height: 30px;
 }
 
 .btn:hover {

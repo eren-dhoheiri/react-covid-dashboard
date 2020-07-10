@@ -8,6 +8,7 @@
     margin-top: 30px !important;
     margin-bottom: 30px !important;
     font-weight: bold;
+    text-align: center;
 }
 
 #tableau h5 {
@@ -27,10 +28,11 @@
     #tableau .container-tableau {
         width: 85%;
         margin-left: 10px;
+        margin-bottom: 100px;
     }
 
     #tableau .tableau-content {
-        height: 1100px !important;
+        height: 1200px !important;
     }
 
     #tableau h5 {

@@ -100,7 +100,7 @@ export default class Card extends Component {
 					linkendin:
 						"https://www.linkedin.com/in/anggun-miranda-71300a60/",
 					desk:
-						"A sales manager plays a key role in the success and failure of an organization. He is the one who plays a pivotal role in achieving the sales targets and eventually generates revenue for the organization.",
+						"A sales manager plays a key role in the success and failure of an organization. She is the one who plays a pivotal role in achieving the sales targets and eventually generates revenue for the organization.",
 				},
 			],
 		};

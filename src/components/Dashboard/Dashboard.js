@@ -26,21 +26,11 @@ const Dashboard = () => {
 					</div>
 				</div>
 				<div className="row">
-					{/* <div className="col m4">
-						<Fade right>
-							<img className="responsive-img" src={Positif} />
-						</Fade>
-					</div> */}
 					<div className="col m12">
 						<Fade right>
 							<img className="responsive-img" src={ODP} />
 						</Fade>
 					</div>
-					{/* <div className="col m4">
-						<Fade right>
-							<img className="responsive-img" src={PDP} />
-						</Fade>
-					</div> */}
 				</div>
 				<div className="row center-align">
 					<div className="m12 center-align">

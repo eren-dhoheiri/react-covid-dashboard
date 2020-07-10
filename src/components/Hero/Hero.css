@@ -1,6 +1,6 @@
 #hero {
     color: #FF7417;
-    height: 100vh;
+    height: 600px;
     width: 100%;
     background-image: url(../../assets/img/hero.jpg);
     background-position: center;
@@ -9,12 +9,13 @@
 }
 
 #hero .hero-content {
+    max-height: 600px;
     margin-top: 30px;
 }
 
 #hero .hero-title {
     margin-top: 80px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
 }
 
 #hero .h-one {
@@ -71,22 +72,22 @@
     margin-top: 40px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-width: 601px) {
+@media only screen and (min-device-width: 325px) and (max-width: 667px) {
     #hero {
         height: 1000px;
     }
 
     #hero .h-one {
-        font-size: 45px;
+        font-size: 55px;
     }
 
     #hero .h-two {
-        font-size: 45px;
-        margin-top: 25px;
+        font-size: 85px;
+        margin-top: -30px;
     }
 
     #hero .h-three {
-        font-size: 35px;
-        margin-top: 25px;
+        font-size: 30px;
+        margin-top: -30px;
     }
 }

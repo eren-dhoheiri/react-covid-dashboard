@@ -1,5 +1,6 @@
 #ourproject {
     color: white;
+
 }
 
 #ourproject .img-ourproject {
@@ -9,7 +10,6 @@
 #ourproject h2 {
     font-weight: bold;
     font-size: 52px;
-    /* margin-top: -100px; */
 }
 
 #ourproject .board {
@@ -28,4 +28,10 @@
     margin-top: 25px;
     text-align: justify;
     max-width: 450px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-width: 601px) {
+    #ourproject {
+        margin-left: 15px;
+    }
 }
