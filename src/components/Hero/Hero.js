@@ -51,10 +51,9 @@ export default class Hero extends Component {
 										to make predictions when the peak of the
 										spread of COVID-19 in DKI Jakarta. In
 										this project we gathered available data,
-										sanitized it and the develop
-										mathematical model using python.
-										Finally, we could see various insights
-										on the dashboard.
+										sanitized it and develop mathematical
+										model using python. Finally, we could
+										see various insights on the dashboard.
 									</p>
 								</div>
 							</div>
